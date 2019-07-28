@@ -1,0 +1,115 @@
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px) and (max-width: 767.98px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 320px) and (max-width: 767.98px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 320px) and (max-width: 767.98px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 320px) and (max-width: 767.98px),
+only screen and (                min-resolution: 192dpi) and (min-width: 320px) and (max-width: 767.98px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 320px) and (max-width: 767.98px) {
+
+  /* Small screen, retina, stuff to override above media query */
+  .top-bar-left-section{
+    width:50%!important;
+  }
+  .top-bar-left-section ul li{
+    width:100%!important;
+  }
+  .top-bar-left-section ul{
+    list-style-type: none!important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767.98px) {
+
+  /* Medium screen, non-retina */
+  .top-bar-left-section ul{
+    list-style-type: none!important;
+  }
+  .top-bar-right-section ul li{
+    border-bottom:1px solid #dee2e6;
+    border-right:1px solid #dee2e6;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top-bar-left-section{
+  width:70%;
+}
+.top-bar-left-section ul li{
+  width:10%;
+}
+.top-bar-right-section ul{
+  margin:0;
+  padding:0;
+}
+.top-bar-right-section ul li{
+  padding:10px 20px;
+  margin:0;
+  border-left:1px solid #dee2e6;
+  width:160px;
+}
+.top-bar-right-section ul li a, .top-bar-left-section ul li a{
+  color:black;
+}
+.logo, .bin{
+  padding:30px;
+}
+input.poisk-input{
+  border-top:none!important;
+  border-left:none!important;
+  border-right:none!important;
+  border-color:#c1a067;
+  width: 94%;
+}
+.top-navigation{
+  background-color: #302a31;
+}
+.top-navigation .dropdown-menu{
+  background-color: #302a31;
+}
+.top-navigation ul li a{
+  color:#ffffff;
+}
+.navbar{
+  border-radius: 0px!important;
+}
+.navbar-nav{
+  float: none!important;
+}
+.banner{
+  width:900px;
+  height: auto;
+}
+.text-banner{
+  width:500px;
+  position:absolute;
+  z-index:999;
+  top:80px;
+  left:80px;
+  letter-spacing:3px;
+}
+.hit-sales{
+  border-bottom:2px solid #c1a067;
+  padding:25px;
+  text-align: center;
+}
+
+
+.arrow ul li{
+  width:50px;
+  list-style: none;
+  position:absolute;
+  top:80px;
+}
